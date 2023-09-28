@@ -7,6 +7,9 @@
     grid-template-columns: repeat(3, 30rem);
     column-gap: 2rem;
     @include m.scrollOrizontal;
+    @include m.tablet {
+      overflow: hidden
+    }
     &__listado {
       @include m.tablet {
         @include m.grid(3, 2rem);
